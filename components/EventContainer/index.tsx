@@ -11,7 +11,7 @@ export const EventContainer = ({ data, title }: EventContainerProps) => {
   return (
     <>
       <h1 className="text-center mt-5 text-2xl font-bold">{title}</h1>
-      <div className="flex flex-col sm:flex-row mt-5 ml-2 mr-2 flex-wrap">
+      <div className="flex mt-5 ml-2 mr-2 flex-wrap">
         {data.map((event) => (
           <CardEvent {...event} key={event.title} />
         ))}
