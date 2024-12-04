@@ -47,3 +47,6 @@ For example, if I want to add some 2025 event, just access the file `events/even
 The project is completely open source and open to the community to keep the events alive. To start a contribution, simply `Fork` the project and open a PR for the repository.
 Or if you encounter a problem, open an issue and it will be responded to shortly.
 The author of the project is Kevin Uehara and you can call him if you need it.
+
+For now, events are being saved in static files. However, with future improvements, we will have the possibility of saving to a database, creating profiles for speakers, premium access and much more.
+Participate in the community and in the construction of the platform and have guaranteed access to the main news and open source.
