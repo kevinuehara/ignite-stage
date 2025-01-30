@@ -10,11 +10,15 @@ import { LuMoonStar } from "react-icons/lu";
 
 export default function Home() {
   const [isDarkOrLight, setIsDarkOrLight] = useState(
-    window.localStorage.getItem("isDarkOrLight") || "light"
+    typeof window !== "undefined"
+      ? window.localStorage.getItem("isDarkOrLight") || "light"
+      : "light"
   );
   const handleToggleLightOrDark = () => {
     const newValue = isDarkOrLight === "light" ? "dark" : "light";
-    window.localStorage.setItem("isDarkOrLight", newValue);
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem("isDarkOrLight", newValue);
+    }
     setIsDarkOrLight(newValue);
   };
 
