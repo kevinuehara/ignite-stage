@@ -2,20 +2,82 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root,
+.light {
+  --background: #e1e1e1;
+  --foreground: #3a3a3a;
+  --card-background: #f3f3f3;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #373938;
     --foreground: #ededed;
+    --card-background: #22271f;
   }
 }
 
-body {
+.dark {
+  --background: #373938;
+  --foreground: #ededed;
+  --card-background: #22271f;
+}
+
+main {
   color: var(--foreground);
-  background: radial-gradient(circle at top left, #181023, #0b0519);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.card {
+  background: var(--card-background);
+  position: relative;
+
+  .containerData {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--foreground);
+    z-index: 1;
+    font-weight: 700;
+    top: -10px;
+    right: 0;
+    background: #a63636;
+    padding: 10px;
+    padding-top: 30px;
+    color: white;
+    font-size: 32px;
+    box-shadow: #000000a8 0px 3px 7px 0;
+    border-radius: 0 0 0 31px;
+  }
+}
+
+.lightButton {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  border-radius: 50%;
+  background: var(--background);
+  box-shadow: #000000a8 0px 3px 7px 0;
+  padding: 1rem;
+  transition: ease all 0.2s;
+
+  &:hover {
+    filter: brightness(1.1);
+    transform: scale(1.1) rotate(19deg);
+  }
+}
+
+@keyframes rotateOneTime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotateOneTime 1s ease-out;
+  transform-origin: center;
 }
