@@ -6,6 +6,7 @@ const fontFamily = Poppins({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
 });
+
 export const metadata: Metadata = {
   title: "Ignite Stage",
   description: "Platform for events and speakers",
