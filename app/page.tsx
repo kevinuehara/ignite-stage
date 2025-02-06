@@ -1,7 +1,6 @@
 "use client";
 import { EventContainer } from "@/components/EventContainer";
 import { Header } from "@/components/Header";
-import { Events2024 } from "@/events/event-2024";
 import { Events2025 } from "@/events/event-2025";
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
@@ -26,8 +25,6 @@ export default function Home() {
     <main className={isDarkOrLight}>
       <Header />
       <div className="flex flex-col gap-10 items-start justify-start">
-        <EventContainer title="December 2024" data={Events2024.DECEMBER} />
-        <EventContainer title="January 2025" data={Events2025.JANUARY} />
         <EventContainer title="February 2025" data={Events2025.FEBRUARY} />
       </div>
 
