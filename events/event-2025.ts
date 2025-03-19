@@ -1,224 +1,323 @@
 export const Events2025 = {
-  FEBRUARY: [
+  MARCH: [
     {
-      title: "Unhacked International CyberSecurity",
-      days: "10-12",
-      country: "Austria",
-      state: "Vienna",
-      callForPapersUrl:
-        "https://momentera.org/conferences/unhacked-conference/abstract.php",
+      title: "Trinca & GDG",
+      days: "19",
+      country: "Brazil",
+      state: "Porto Alegre",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD44T7MPbrAoFR6Af-ULFzrHsXKIpU7b4iOA&s",
-      format: "Online",
-      eventUrl: "https://momentera.org/conferences/unhacked-conference/",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrYx5m2oonTn4honjTx1J9qkgP3wwd1nuzNinm8ykoWNO2oblKc123oBHeYjKvRL58ds&usqp=CAU",
+      format: "In Person",
+      eventUrl:
+        "https://gdg.community.dev/events/details/google-gdg-porto-alegre-presents-trinca-amp-gdg/",
+      tags: ["ia", "leadership"],
+    },
+    {
+      title: "React Paris",
+      days: "20-21",
+      country: "Paris",
+      imageUrl:
+        "https://react.paris/_next/image?url=https%3A%2F%2Fassets.reactbricks.com%2FWRBsx9AS2_St2yj%2Fimages%2Foriginal%2Fj1RV21AqwTYo_7K.webp&w=3840&q=75",
+      format: "Paris, France & Online",
+      eventUrl: "https://react.paris/",
+      tags: ["react", "frontend", "javascript"],
+    },
+    {
+      title: "PGDay Paris",
+      days: "20",
+      country: "Paris",
+      imageUrl:
+        "https://2025.pgday.paris/static/fdc7362/img/main_logo_2025.png",
+      format: "In Person",
+      eventUrl: "https://2025.pgday.paris/",
+      tags: ["data"],
+    },
+    {
+      title: "SecOps Summit 2025",
+      days: "20",
+      country: "Brazil",
+      state: "São Paulo",
+      imageUrl:
+        "https://www.secopssummit.com.br/uploads/p9499c73364402a4eea523c2cd74e6c34.jpg",
+      format: "In Person",
+      eventUrl: "https://www.secopssummit.com.br/",
+      tags: ["security", "IA"],
+    },
+    {
+      title: "GitTogether São Paulo",
+      days: "20",
+      country: "Brazil",
+      state: "São Paulo",
+      imageUrl:
+        "https://secure.meetupstatic.com/photos/event/8/e/5/f/600_526116447.webp?w=384",
+      format: "In Person",
+      eventUrl: "https://www.meetup.com/gittogether-brasil/events/306033353/",
+      tags: ["Open Source", "web"],
+    },
+    {
+      title: "Data World Xperience 2025",
+      days: "20-21",
+      country: "Brazil",
+      state: "Florianópolis",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTopJG_KCCvf6-8T6YTgvwIYIDXGcmOy-Fjog&s",
+      format: "In Person",
+      eventUrl: "https://www.meetup.com/gittogether-brasil/events/306033353/",
+      tags: ["data", "IA"],
+    },
+    {
+      title: "Frontrunners",
+      days: "21",
+      country: "USA",
+      imageUrl: "https://frontrunners.tech/images/banner/DCJS.png",
+      format: "In Person",
+      eventUrl: "https://frontrunners.tech/",
+      tags: ["javascript"],
+    },
+    {
+      title: "BSidesRJ - 2025",
+      days: "22",
+      country: "Brazil",
+      state: "Rio de Janeiro",
+      imageUrl:
+        "https://media.licdn.com/dms/image/v2/D4D0BAQGix4UhKLRCgA/company-logo_200_200/company-logo_200_200/0/1719256636588/bsidesrj_logo?e=2147483647&v=beta&t=MJdAOS1j3XlEAh9rkpRpP_tr_BCVL5fLUPiRX8-bs-s",
+      format: "In Person",
+      eventUrl: "https://bsidesrj.com.br/",
+      tags: ["security"],
+    },
+    {
+      title: "International Women's Day Curitiba 2025",
+      days: "22",
+      country: "Brazil",
+      state: "Paraná",
+      imageUrl:
+        "https://secure.meetupstatic.com/photos/event/2/d/9/9/600_525851673.webp?w=384",
+      format: "In Person",
+      eventUrl:
+        "https://www.meetup.com/pt-br/women-techmakers-curitiba/events/305753276/",
       tags: ["networking"],
     },
     {
-      title: "Constuindo uma aplicação web de IA com Python e Flask",
-      days: "06",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/a/d/7/5/600_525584405.webp?w=384",
-      format: "Online",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305033025/",
-      tags: ["web", "python", "flask", "IA"],
-    },
-    {
-      title:
-        "[Front @Uber] Simulando a entrevista de design & architecture de frontend",
-      days: "06",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/d/b/4/8/600_525716136.webp?w=384",
-      format: "Online",
-      eventUrl: "https://www.meetup.com/uber-tech-latam/events/305607442/",
-      tags: ["frontend", "career"],
-    },
-    {
-      title: "Excel Weekend 10",
-      days: "07",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/a/5/8/8/600_525582376.webp?w=384",
-      format: "Hybrid",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305401582/",
-      tags: ["excel"],
-    },
-    {
-      title: "Pycascades",
-      days: "08-09",
-      country: "USA",
-      state: "Portland",
-      imageUrl: "https://avatars.githubusercontent.com/u/26017107?s=280&v=4",
-      format: "Hybrid",
-      eventUrl: "https://2025.pycascades.com/",
-      tags: ["Python"],
-    },
-    {
-      title: "DeveloperWeek",
-      days: "11-20",
-      country: "USA",
-      state: "Santa Clara",
-      imageUrl:
-        "https://www.developerweek.com/wp-content/uploads/2024/11/DW25_preview.jpeg",
-      format: "Hybrid",
-      eventUrl: "https://www.developerweek.com/",
-      tags: ["general"],
-    },
-    {
-      title: "Crie Testes Unitários e Documentação com Github Copilot",
-      days: "11",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/a/d/9/5/600_525584437.webp?w=384",
-      format: "Online",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305033451/",
-      tags: ["copilot", "testing"],
-    },
-    {
-      title: "Golang SP na Uber",
-      days: "12",
-      country: "Brasil",
-      state: "São Paulo",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/d/2/0/8/600_525893768.webp?w=384",
-      format: "In Person",
-      eventUrl: "https://www.meetup.com/golangbr/events/305810241/",
-      tags: ["copilot", "testing"],
-    },
-    {
-      title: "Colaboração e Implantação com Github Copilot",
-      days: "13",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/a/d/b/e/600_525584478.webp?w=384",
-      format: "Online",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305033642/",
-      tags: ["copilot"],
-    },
-    {
-      title: "Conf42 Chaos Engineering",
-      days: "13",
-      imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODSt_DRJrWu1y-WHgXXiu0xlf1I3mvydm3w&s",
-      format: "Online",
-      eventUrl: "https://www.conf42.com/ce2025",
-      tags: ["testing", "sre"],
-    },
-    {
-      title:
-        "FIAP: Mulheres no Mercado Tech: Trajetórias de Inclusão e Equidade em TI",
-      days: "13",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/a/b/c/0/600_525703968.webp?w=384",
-      format: "Online",
-      eventUrl: "https://www.meetup.com/fiapmeetups/events/305594436/",
-      tags: ["woman", "career"],
-    },
-    {
-      title: "Hack in Cariri",
-      days: "15",
-      country: "Brasil",
-      state: "Ceará",
-      imageUrl: "https://images.sympla.com.br/6728ad49089d1-lg.png",
-      format: "In Person",
-      eventUrl:
-        "https://www.sympla.com.br/evento/hack-in-cariri-2025/2719344?referrer=github.com",
-      tags: ["security", "hack"],
-    },
-    {
-      title:
-        "DP-700: Implementar e Gerenciar Soluções Analíticas com Microsoft Fabric",
-      days: "17",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/4/5/7/7/600_525977783.webp?w=384",
-      format: "Online",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305759596/",
-      tags: ["analytics"],
-    },
-    {
-      title: "DP-700: Ingestão e Transformação de Dados no Microsoft Fabric",
-      days: "18",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/4/5/8/c/600_525977804.webp?w=384",
-      format: "Online",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305761075/",
-      tags: ["data"],
-    },
-    {
-      title: "DP-700: Monitore e Otimize suas Soluções no Microsoft Fabric",
-      days: "19",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/4/d/b/5/600_525979893.webp?w=384",
-      format: "Online",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305761164/",
-      tags: ["data"],
-    },
-    {
-      title:
-        "FIAP Meetup #138 - AI in Healthcare: eficiência e inovação na saúde com IA",
-      days: "20",
-      country: "Brasil",
-      state: "São Paulo",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/e/6/f/8/600_524699128.webp?w=384",
-      format: "Hybrid",
-      eventUrl: "https://www.meetup.com/fiapmeetups/events/304567086/",
-      tags: ["AI", "health"],
-    },
-    {
-      title: "Global Power Platform Bootcamp 2025",
-      days: "20",
-      country: "Brasil",
-      imageUrl:
-        "https://secure.meetupstatic.com/photos/event/b/6/e/1/600_526006817.webp?w=384",
-      format: "Online",
-      eventUrl:
-        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/305920866/",
-      tags: ["Bootcamp"],
-    },
-    {
-      title: "FortalSec",
+      title: "KCD Rio de Janeiro 2025",
       days: "22",
-      country: "Brasil",
-      state: "Fortaleza",
+      country: "Brazil",
+      state: "Rio de Janeiro",
       imageUrl:
-        "https://www.fortalsec.com.br/wp-content/uploads/2024/01/FortalSEC_main-1-2-1024x575.png",
+        "https://res.cloudinary.com/startup-grind/image/fetch/c_scale,w_2560/c_crop,h_650,w_2560,y_0.0_mul_h_sub_0.0_mul_650/c_crop,h_650,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/https://res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Cq_auto:good/v1/gcs/platform-data-cncf/chapter_banners/WhatsApp%2520Image%25202025-03-13%2520at%252013.42.03_2edXyhL.jpeg",
       format: "In Person",
-      eventUrl: "https://www.fortalsec.com.br/",
-      tags: ["Security"],
-    },
-    {
-      title: "ConveyUX",
-      days: "25-27",
-      country: "USA",
-      imageUrl:
-        "https://pbs.twimg.com/profile_images/1711888324527632384/oCFGdWxy_400x400.jpg",
-      format: "Hybrid",
-      eventUrl: "https://conveyux.com/",
-      tags: ["ux"],
-    },
-    {
-      title: "DevWorld Conference",
-      days: "27-28",
-      country: "Netherlands",
-      state: "Amsterdam",
-      imageUrl:
-        "https://www.iamsterdam.com/_next/image?url=https%3A%2F%2Fapp.thefeedfactory.nl%2Fapi%2Fassets%2F66deba2fde695e708c888789%2Fdevworld_banner__youtube_.png&w=3840&q=75",
-      format: "In Person",
-      eventUrl: "https://devworldconference.com/",
+      eventUrl: "https://community.cncf.io/kcd-brasil/",
       tags: ["general"],
+    },
+    {
+      title: "Software Architecture Summit",
+      days: "24-26",
+      country: "France",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT251DOiXipzyw48osbz4BTS3ukRkBk3xSxnA&s",
+      format: "In Person",
+      eventUrl: "https://software-architecture-summit.de/muenchen/",
+      tags: ["security", "iot"],
+    },
+    {
+      title: "FIAP Masterclass - Next Level Innovation",
+      days: "25",
+      country: "Brazil",
+      state: "São Paulo",
+      imageUrl:
+        "https://secure.meetupstatic.com/photos/event/3/d/6/c/600_526755724.webp?w=384",
+      format: "In Person",
+      eventUrl: "https://www.meetup.com/fiapmeetups/events/306461292/",
+      tags: ["innovation", "IA", "Business Strategy"],
+    },
+    {
+      title: "Agile India 2025",
+      days: "25-27",
+      country: "India",
+      state: "Bengaluru",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK-09vEV6QnbB8oDuN5tGjLURHdhW1s7eDfw&s",
+      format: "In Person",
+      eventUrl: "https://2025.agileindia.org/",
+      tags: ["general"],
+    },
+    {
+      title: "Security Girls 2025",
+      days: "26",
+      country: "Brazil",
+      state: "São Paulo",
+      imageUrl:
+        "https://secure.meetupstatic.com/photos/event/3/7/2/c/600_526334124.webp?w=384",
+      format: "In Person",
+      eventUrl:
+        "https://www.meetup.com/microsoft-reactor-sao-paulo/events/306239922/",
+    },
+    {
+      title: "TDC Summit São Paulo",
+      days: "26-27",
+      country: "Brazil",
+      imageUrl: "https://thedevconf.com/assets/img/summit/TopoTDC3.webp",
+      format: "In Person",
+      eventUrl: "https://thedevconf.com/tdc/2025/summit-sao-paulo/",
+      tags: ["IA"],
+    },
+    {
+      title: "The Future of Software",
+      days: "26",
+      country: "UK",
+      state: "London",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_SReeEkWkXg93E8VItgmTTyVgtVuG63IU1Q&s",
+      format: "In Person",
+      eventUrl: "https://www.thefutureofsoftware.com/london",
+      tags: ["general"],
+    },
+    {
+      title: "WebDev & AI Day",
+      days: "27",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacamCP_vuZ9Bg4U_1tFmgM8nxnrSVbOB-iQ&s",
+      format: "Online",
+      eventUrl: "https://www.wearedevelopers.com/events/webdev-ai-day",
+      tags: ["data"],
+    },
+    {
+      title: "SymfonyLive Paris 2025",
+      days: "27-28",
+      country: "France",
+      state: "Paris",
+      imageUrl:
+        "https://symfony.com/uploads/assets/blog/sfliveparis2025-blog-at-2x.png",
+      format: "In Person",
+      eventUrl: "https://live.symfony.com/2025-paris/",
+      tags: ["php"],
+    },
+    {
+      title: "Productivity Conf | Devs & Tech Leaders",
+      days: "27-28",
+      imageUrl: "https://media.graphassets.com/cI2CzJdQDest8A98WSOM",
+      format: "Online",
+      eventUrl: "https://productivityconf.com/developers/",
+      tags: ["data", "product", "testing"],
+    },
+    {
+      title: "Sem Servidor Conf 2025",
+      days: "28",
+      country: "Brazil",
+      state: "Florianópolis",
+      imageUrl: "https://images.sympla.com.br/6785c2f7a6128-xs.png",
+      format: "In Person",
+      eventUrl: "https://semservidor.com.br/sem-servidor-conf/",
+      tags: ["general"],
+    },
+    {
+      title: "1º Encontro de Mulheres em Tecnologia no Cerrado",
+      days: "29",
+      country: "Brazil",
+      state: "Brasilia",
+      imageUrl:
+        "https://secure.meetupstatic.com/photos/event/8/1/c/5/600_526353221.webp?w=384",
+      format: "In Person",
+      eventUrl:
+        "https://www.meetup.com/aws-user-group-brasilia/events/306265242/?slug=aws-user-group-brasilia&eventId=305233284&isFirstPublish=true",
+      tags: ["career", "cloud", "general"],
+    },
+    {
+      title: "RUST Asia",
+      days: "28",
+      country: "China",
+      state: "Hong Kong",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLKBeS8g18FR2O_8KcqkZDP3ZcgTmj7OU2mQ&s",
+      format: "In Person",
+      eventUrl: "https://www.rustasiaconf.com/",
+      tags: ["rust"],
+    },
+  ],
+  APRIL: [
+    {
+      title: "KubeCon + CloudNativeCon Europe",
+      days: "01-04",
+      country: "UK",
+      state: "London",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU4GvJUwpwZj2EnyeiDWx2p0_Qm-ubzAIb6Q&s",
+      format: "In Person & Online",
+      eventUrl:
+        "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+      tags: ["devops"],
+    },
+    {
+      title: "Computer on the beach",
+      days: "02-05",
+      country: "Brazil",
+      state: "Santa Catarina",
+      imageUrl:
+        "https://informatica.ifgoiano.edu.br/images/icagenda/files/COTB.png",
+      format: "In Person",
+      eventUrl: "https://computeronthebeach.com.br/",
+      tags: ["general"],
+    },
+    {
+      title: "Agile Trends 2025",
+      days: "08-11",
+      country: "Brazil",
+      state: "São Paulo",
+      imageUrl:
+        "https://agiletrendsbr.com/2021/wp-content/uploads/2014/01/logo-agiletrends.png",
+      format: "In Person",
+      eventUrl: "https://agiletrendsbr.com/",
+      tags: ["IA", "agile"],
+    },
+    {
+      title: "Hacking na Web Day - Recife",
+      days: "12",
+      country: "Brazil",
+      state: "Recife",
+      imageUrl: "https://images.sympla.com.br/6781d40d13914-xs.png",
+      format: "In Person",
+      eventUrl:
+        "https://www.sympla.com.br/evento/hnwd-recife-2025/2820464?referrer=linktr.ee",
+      tags: ["web", "general"],
+    },
+    {
+      title: "React Miami",
+      days: "17-18",
+      country: "USA",
+      state: "Miami",
+      imageUrl:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfAE-NCb1gdd_hDwXTZ_PwPe_Dl6FTwhdkeA&s",
+      format: "In Person",
+      eventUrl: "https://www.reactmiami.com/",
+      tags: ["javascript", "frontend"],
+    },
+    {
+      title: "Node Congress",
+      days: "17-18",
+      imageUrl: "https://nodecongress.com/img/ogImage.png",
+      format: "Online",
+      eventUrl: "https://nodecongress.com/",
+      tags: ["javascript"],
+    },
+    {
+      title: "CityJS London",
+      days: "23-25",
+      country: "UK",
+      state: "London",
+      imageUrl: "https://cityjsconf.org/images/site/2019.jpg",
+      format: "In Person & Online",
+      eventUrl: "https://london.cityjsconf.org/",
+      tags: ["javascript"],
+    },
+    {
+      title: "Web Summit Rio 2025",
+      days: "27-30",
+      country: "Brazil",
+      state: "Rio de Janeiro",
+      imageUrl:
+        "https://adesampa.com.br/adeeditais/wp-content/uploads/2022/09/web-1024x576.jpeg",
+      format: "In Person",
+      eventUrl: "https://rio.websummit.com/",
+      tags: ["business", "general"],
     },
   ],
 };

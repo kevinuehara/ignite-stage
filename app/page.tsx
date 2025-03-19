@@ -25,7 +25,9 @@ export default function Home() {
     <main className={isDarkOrLight}>
       <Header />
       <div className="flex flex-col gap-10 items-start justify-start">
-        <EventContainer title="February 2025" data={Events2025.FEBRUARY} />
+        <EventContainer title="March 2025" data={Events2025.MARCH} />
+
+        <EventContainer title="April 2025" data={Events2025.APRIL} />
       </div>
 
       <footer className="mt-5 py-10">
